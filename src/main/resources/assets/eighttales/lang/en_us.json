@@ -1,7 +1,6 @@
 {
-  "itemGroup.eighttales": "Example Mod Tab",
-  "block.eighttales.example_block": "Example Block",
-  "item.eighttales.example_item": "Example Item",
+  "itemGroup.eighttales.main": "8 Tales",
+  "item.eighttales.rusty_broadsword": "Rusty Broadsword",
 
   "eighttales.configuration.title": "eight_tales Configs",
   "eighttales.configuration.section.eighttales.common.toml": "eight_tales Configs",
