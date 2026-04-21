@@ -1,0 +1,13 @@
+{
+  "itemGroup.eighttales": "Example Mod Tab",
+  "block.eighttales.example_block": "Example Block",
+  "item.eighttales.example_item": "Example Item",
+
+  "eighttales.configuration.title": "eight_tales Configs",
+  "eighttales.configuration.section.eighttales.common.toml": "eight_tales Configs",
+  "eighttales.configuration.section.eighttales.common.toml.title": "eight_tales Configs",
+  "eighttales.configuration.items": "Item List",
+  "eighttales.configuration.logDirtBlock": "Log Dirt Block",
+  "eighttales.configuration.magicNumberIntroduction": "Magic Number Text",
+  "eighttales.configuration.magicNumber": "Magic Number"
+}
