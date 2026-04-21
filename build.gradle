@@ -32,6 +32,7 @@ repositories {
     maven { url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/" } // Geckolib
     maven { url = "https://maven.architectury.dev/" } // Architectury
     maven { url = "https://maven.kosmx.dev/" } // Player-Animator
+    maven { url = "https://cursemaven.com" }
 }
 
 base {
@@ -147,6 +148,7 @@ dependencies {
     implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:4.7"
     implementation "dev.architectury:architectury-neoforge:13.0.6"
     implementation "dev.kosmx.player-anim:player-animation-lib-forge:2.0.4+1.21.1"
+    implementation "curse.maven:photon-871522:7379876"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Blocks;
+import com.eight.talesmod.item.LaserSaberItem;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -40,6 +41,7 @@ public class eighttales {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
     public static final DeferredItem<Item> RUSTY_BROADSWORD = ITEMS.registerSimpleItem("rusty_broadsword", new Item.Properties());
+    public static final DeferredItem<Item> LASER_SABER = ITEMS.registerItem("laser_saber", LaserSaberItem::new);
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TALES_TAB = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.eighttales.main"))
@@ -47,6 +49,7 @@ public class eighttales {
             .icon(() -> RUSTY_BROADSWORD.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(RUSTY_BROADSWORD.get());
+                output.accept(LASER_SABER.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

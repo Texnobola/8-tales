@@ -1,6 +1,7 @@
 {
   "itemGroup.eighttales.main": "8 Tales",
   "item.eighttales.rusty_broadsword": "Rusty Broadsword",
+  "item.eighttales.laser_saber": "Laser Saber",
 
   "eighttales.configuration.title": "eight_tales Configs",
   "eighttales.configuration.section.eighttales.common.toml": "eight_tales Configs",
